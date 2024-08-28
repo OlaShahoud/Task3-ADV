@@ -1,0 +1,133 @@
+.BestDeal {
+    padding: 120px;
+    background-color: #eee;
+}
+
+.BestDealOne {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.BestDealOneTitle {
+    width: 300px;
+}
+
+.BestDealOneTitleP {
+    color: #f35525;
+    font-weight: 700;
+    padding-left: 5px;
+    border-left: 4px solid #f35525;
+    margin-bottom: 20px;
+}
+
+.BestDealOneTitleH1 {
+    font-size: 40px;
+}
+
+.BestDealOneButton {
+    width: max-content;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.BestDealOneButton:hover {
+    background-color: #f35525;
+    transition: all.5s;
+}
+
+.button2 {
+    margin: 0px 20px;
+}
+
+.BestDealTwoCard {
+    box-shadow: 0px 0px 10px 4px #bdbcbc;
+    padding: 0px 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: max-content;
+    height: max-content;
+}
+
+.BestDealTwo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.BestDealTwoTitle {
+    width: 400px;
+}
+
+.BestDealTwoTitleP {
+    margin: 40px 0px;
+    width: 70%;
+    opacity: .9;
+    color: #252525;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.bestParNone {
+    display: none;
+}
+
+@media ( max-width: 1400px) {
+    .BestDealTwoTitle {
+        margin-top: 20px;
+    }
+}
+
+@media ( max-width: 1089px) {
+    .BestDealTwoImg {
+        margin-top: 20px;
+    }
+}
+
+@media ( max-width: 992px) {
+    .BestDealOneAllButton {
+        margin-top: 20px;
+    }
+}
+
+@media ( max-width: 700px) {
+    .BestDealTwoImg img {
+        width: 90%;
+    }
+    .BestDeal {
+        padding: 80px;
+    }
+}
+
+@media ( max-width: 569px) {
+    .BestDeal {
+        padding: 50px;
+        background-color: #eee;
+    }
+    .BestDealOneButton {
+        padding: 10px 10px;
+        margin: 2px!important;
+        font-size: 12px;
+    }
+}
+
+@media ( max-width: 450px) {
+    .BestDeal {
+        padding: 20px;
+    }
+    .CardBestDeal {
+        width: 150px!important;
+    }
+    .CardBestDealParagraf {
+        font-size: 16px!important;
+    }
+    .CardBestDealTitle {
+        font-size: 20px!important;
+    }
+}

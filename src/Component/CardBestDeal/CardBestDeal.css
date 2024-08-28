@@ -1,0 +1,17 @@
+.CardBestDeal {
+    border-bottom: 1px solid #ddd;
+    width: 250px;
+    display: flex;
+    padding: 30px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CardBestDealParagraf {
+    color: gray;
+    font-size: 20px;
+}
+
+.CardBestDealTitle {
+    font-size: 28px;
+}

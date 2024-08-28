@@ -1,0 +1,70 @@
+.ContainerSingle {
+    margin: 70px 120px;
+}
+
+.SectionTwo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ImgSingle img {
+    width: 100%;
+    height: 600px;
+}
+
+.typeRoom {
+    background-color: #fdc2ab;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.PartTwo {
+    width: max-content;
+}
+
+.Singlepar {
+    width: max-content;
+    margin: 40px 0px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.Singleh1 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.PartOne {
+    width: 70%;
+    row-gap: 30px;
+}
+
+.lorem {
+    line-height: 25px;
+}
+
+.lorem1 {
+    margin: 40px 0px;
+}
+
+@media(max-width: 750px) {
+    .ContainerSingle {
+        margin: 70px 80px!important;
+    }
+    .PartOne {
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px) {
+    .TitleHeroPagesRes {
+        font-size: 24px;
+    }
+    .ParHeroPagesRes {
+        font-size: 12px;
+    }
+    .ContainerSingle {
+        margin: 70px 20px!important;
+    }
+}

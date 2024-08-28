@@ -1,0 +1,80 @@
+.Flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav1 {
+    height: 10vh;
+}
+
+.Container-Top {
+    padding: 20px 120px;
+}
+
+.nav1-item {
+    display: flex;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+}
+
+.nav1-item1 {
+    padding-right: 40px;
+    border-right: 1px solid #eee;
+}
+
+.nav1-item2 {
+    margin-left: 40px;
+}
+
+.faEnvelope,
+.faMap {
+    color: #f35525;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dataNavBar1Par {
+    font-size: 20px;
+}
+
+.iconItem {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    opacity: .5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list {
+    display: flex;
+    list-style: none;
+}
+
+@media ( max-width: 950px) {
+    .nav1 {
+        height: 0px;
+        display: none;
+    }
+    .Slider {
+        margin-top: 0px;
+    }
+    .Container-Top {
+        padding: 0px 0px;
+    }
+}

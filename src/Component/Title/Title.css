@@ -1,0 +1,13 @@
+.TitleP {
+    color: #f53a01;
+    border-left: 2px solid #f53a01;
+    padding: 0px 4px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.Titleh1 {
+    font-size: 50px;
+    width: 320px;
+}

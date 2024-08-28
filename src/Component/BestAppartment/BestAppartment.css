@@ -1,0 +1,123 @@
+    .BestAppartment {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .container {
+        margin: 120px 120px;
+    }
+    
+    .Room {
+        position: relative;
+        height: 30%;
+    }
+    
+    .RoomImg {
+        width: 100%;
+    }
+    
+    .DivRoomIcon {
+        background-color: #f35525;
+        position: absolute;
+        left: -3rem;
+        bottom: -50px;
+        width: max-content;
+        border-radius: 50%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .View {
+        margin: 0px 50px 0px 30px;
+    }
+    
+    .Best {
+        background-color: #eee;
+        width: 500px;
+        margin-top: 60px;
+        border-radius: 10px;
+    }
+    
+    .best {
+        font-size: 20px;
+        padding: 20px 20px;
+    }
+    
+    .bestQu {
+        border-bottom: 1px solid #b9b9b9;
+        color: #f35525;
+    }
+    
+    .bestParag {
+        border-bottom: 1px solid #b9b9b9;
+    }
+    
+    .features {
+        box-shadow: 0px 0px 20px 0px#dbdbdb;
+        height: max-content;
+        padding: 10px 20px 0px 20px;
+        border-radius: 10px;
+    }
+    
+    @media(max-width: 1500px) {
+        .features {
+            margin-top: 20px;
+        }
+    }
+    
+    @media(max-width: 1094px) {
+        .View {
+            margin: 70px 50px 0px 30px;
+        }
+    }
+    
+    @media(max-width: 699px) {
+        .Properites {
+            margin: 10px 40px;
+        }
+        .Best {
+            width: 300px;
+        }
+        .View {
+            margin: 70px 10px 0px 10px;
+        }
+    }
+    
+    @media(max-width: 576px) {
+        .container {
+            margin: 120px 80px;
+        }
+    }
+    
+    @media(max-width: 400px) {
+        .Properites {
+            margin: 10px;
+        }
+        .View {
+            margin: 40px 10px 0px 10px;
+        }
+        .View h1 {
+            font-size: 30px;
+            width: 200px;
+        }
+        .Best {
+            width: 250px;
+        }
+        .Room {
+            width: 60%;
+        }
+        .RoomIcon {
+            width: 30px;
+        }
+        .DivRoomIcon {
+            left: -2rem;
+            bottom: -30px;
+            padding: 10px;
+        }
+        .container {
+            margin: 120px 20px;
+        }
+    }

@@ -1,0 +1,29 @@
+.Card {
+    display: flex;
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.Card .information {
+    padding: 0px 20px;
+}
+
+.informationParagraf {
+    opacity: .7;
+    padding-top: 10px;
+    width: max-content;
+}
+
+.paragraf {
+    opacity: .7;
+    padding-top: 10px;
+}
+
+@media(max-width: 410px) {
+    .informationTitle {
+        font-size: 16px;
+    }
+    .CardBestProperty {
+        padding: 40px 20px!important;
+    }
+}

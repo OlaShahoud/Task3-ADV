@@ -1,0 +1,107 @@
+.Slider {
+    margin-top: 70px;
+    display: flex;
+    position: relative;
+}
+
+.hero {
+    height: 80vh;
+}
+
+.slide {
+    width: 100%;
+    height: 80vh;
+}
+
+.slide-hidden {
+    display: none;
+}
+
+.Paragraf {
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 15px;
+    left: 15%;
+    top: 20%;
+    font-size: 20px;
+    width: 200px;
+    z-index: 7;
+}
+
+.TitleHero {
+    position: absolute;
+    left: 15%;
+    bottom: 46%;
+    width: 200px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.SliderIcon {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    bottom: 50%;
+    filter: drop-shadow(0px 0px 8px #c7bfbf);
+    /* box-shadow: 0px 0px 10px 4px #b8b8b8;*/
+    background-color: rgba(109, 108, 108, 0.3);
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
+
+.left-icon {
+    left: 1rem;
+}
+
+.Right-icon {
+    right: 1rem;
+}
+
+.indicators {
+    position: absolute;
+    display: flex;
+    bottom: 3rem;
+    right: 50%;
+    left: 50%;
+}
+
+.indicator {
+    border-radius: 50%;
+    padding: 5px;
+    border: none;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+
+.indicator-inactive {
+    background-color: grey;
+}
+
+.Canada {
+    color: #f35525;
+}
+
+@media ( max-width: 1400px) {
+    .TitleHero {
+        bottom: 36%;
+    }
+}
+
+@media ( max-width: 400px) {
+    .Paragraf {
+        left: 25%;
+        font-size: 16px;
+        width: 150px;
+    }
+    .TitleHero {
+        width: 150px;
+        font-size: 24px;
+        left: 25%
+    }
+}

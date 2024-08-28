@@ -1,0 +1,64 @@
+.ContainerSingle {
+    margin: 70px 120px;
+}
+
+.SectionTwo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Part-one {
+    width: 50%;
+}
+
+.part-two {
+    width: 500px;
+}
+
+.ContactPar {
+    margin: 40px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.ContactMeOneMargin {
+    margin-top: 30px;
+}
+
+.ContactMeMapDiv {
+    margin-top: 80px;
+}
+
+.ContactMeMap {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+@media(max-width: 1200px) {
+    .part-two {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 767px) {
+    .Part-one {
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+    .ContactMeOne {
+        width: 250px;
+    }
+    .Titleh1Res {
+        font-size: 24px;
+    }
+    .part-two {
+        width: 100%;
+    }
+    .ContainerSingle {
+        margin: 70px 20px!important;
+    }
+}

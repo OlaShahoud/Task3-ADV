@@ -1,0 +1,58 @@
+.BodyProprites {
+    margin: 60px 120px;
+}
+
+.BodyPropritesbtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.BestDealOneButton {
+    width: max-content;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-proprities {
+    margin: 0px 10px;
+}
+
+.contaner-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.number-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0px 10px;
+    border: none;
+}
+
+.number-btn:active {
+    background-color: #f35525;
+}
+
+@media(max-width: 776px) {
+    .BodyProprites {
+        margin: 60px 80px;
+    }
+}
+
+@media(max-width: 400px) {
+    .BodyProprites {
+        margin: 60px 20px;
+    }
+}
